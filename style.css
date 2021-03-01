@@ -1,59 +1,47 @@
-
-.tg  {border-collapse:collapse;border-color:#9ABAD9;border-spacing:0;}
-.tg td{background-color:#EBF5FF;border-color:#9ABAD9;border-style:solid;border-width:1px;color:#444;
-  font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:11px 20px;word-break:normal;}
-.tg th{background-color:#409cff;border-color:#9ABAD9;border-style:solid;border-width:1px;color:#fff;
-  font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:11px 20px;word-break:normal;}
-.tg .tg-f8tz{background-color:#409cff;border-color:inherit;text-align:left;vertical-align:top}
-.tg .tg-u85a{border-color:inherit;color:#9abad9;text-align:left;vertical-align:top}
-.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
-.tg .tg-li7x{background-color:#409cff;border-color:#9abad9;color:#ebf5ff;text-align:left;vertical-align:top}
-@media screen and (max-width: 767px) {.tg {width: auto !important;}.tg col {width: auto !important;}.tg-wrap {overflow-x: auto;-webkit-overflow-scrolling: touch;}}
-
-
 a{
-  color:black;
-
+  color: black;
 }
+
+header {
+  background-color:#bdbdbd;
+  width:100vw;
+  height: 10vh;
+}
+
 h1{
-  font-size: 50px;
-  text-align: center;
-  border-bottom: 2.4px solid black;
   margin: 0;
-  padding: 20px;
-
-
+  padding-top: 10px;
+  text-align: center;
 }
-.side1{
-  font-size: 20px;
-  border-right: 2.4px solid black;
-  width: 200px;   margin: 0; padding: 20px; padding-right: 0px; padding-left: 0px;
 
-
+nav{
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-start;
 }
+
+#clock{
+  left: 10px;
+  position: relative;
+}
+
+.navmenu1{
+  left: 25px;
+  position: relative;
+}
+
+.navmenu2{
+  left: 35px;
+  position: relative;
+}
+
+.instagram{
+  left: 45px;
+  position: relative;
+}
+
+
 body{
- margin: 0;
-}
-#grid{
- display: grid;
- grid-template-columns:  150px 1fr;
-}
-.home{
- font-size: 30px;
-}
-#main{
- padding-left: 75px;
-
-}
-@media(max-width:700px) {
- #grid{
-   display: block;
- }
- .side1{
-   border-right: none;
- }
- h1{
-   border-bottom: none;
- }
-
+  margin: 0;
 }
