@@ -28,7 +28,7 @@ nav{
   padding-top: 10px;
   display: flex;
   flex-direction: row;
-  justify-content:flex-start;
+  justify-content:space-between;
 }
 
 #clock{
@@ -52,7 +52,7 @@ nav{
 }
 
 #count{
-  left: 1185px;
+
   position: relative;
 }
 
