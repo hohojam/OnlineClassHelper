@@ -22,6 +22,8 @@ h5{
   display: inline;
 }
 
+
+
 nav{
   padding-top: 10px;
   display: flex;
@@ -49,19 +51,56 @@ nav{
   position: relative;
 }
 
+#count{
+  left: 1185px;
+  position: relative;
+}
 
 body{
   margin: 0;
 }
 
-.schedule{
-  top: 20px;
-  left: 20px;
-  position: relative;
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: repeat(3, minmax(100px, auto));
+  row-gap: 25px;
+  column-gap: 25px;
+  padding: 20px;
+
+
+
+
 }
 
-.notice{
-  top: 20px;
-  left: 20px;
+.schedule{
+  background-color: #CACACACA;
   position: relative;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.tg-wrap{
+
+
+
+}
+.notice{
+  position: relative;
+  background-color: #CACACACA;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.information{
+  position: relative;
+  background-color: #CACACACA;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
 }
